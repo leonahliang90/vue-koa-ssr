@@ -1,0 +1,118 @@
+{
+  "banks": [
+    {
+      "name": "MB2U0227",
+      "label": "Maybank2u",
+      "img": "https://cdn03.billplz.com/assets/v2/bill/newFPX/MB2U0227-550273cd655e3790ff9f5aaa2db28c233e3822cf862e031f829150941c1052a6.png",
+      "active": true
+    },
+    {
+      "name": "BCBB0235",
+      "label": "CIMB Clicks",
+      "img": "https://cdn00.billplz.com/assets/v2/bill/newFPX/BCBB0235-1ab8a40a64f57999202dcd1b7d55712331387fa6b5b5da4a47c75762f78363c1.png",
+      "active": true
+    },
+    {
+      "name": "RHB0218",
+      "label": "RHB Now",
+      "img": "https://cdn02.billplz.com/assets/v2/bill/newFPX/RHB0218-59d32095f4844884cb7b96f1d1bb16707df263c3f0da971e1b9d80aac15d328b.png",
+      "active": true
+    },
+    {
+      "name": "PBB0233",
+      "label": "PBe",
+      "img": "https://cdn01.billplz.com/assets/v2/bill/newFPX/PBB0233-67a34498c8880638a0d1e8c3647ba45fe3c532f51314dafcfd0c8af82feba1f7.png",
+      "active": true
+    },
+    {
+      "name": "HLB0224",
+      "label": "HLB Connect",
+      "img": "https://cdn01.billplz.com/assets/v2/bill/newFPX/HLB0224-8579933759d50aebb7cda672e82523ce1a9fad3d94bba0ef4f3f5b6313d8bdfb.png",
+      "active": true
+    },
+    {
+      "name": "ABB0233",
+      "label": "affinOnline",
+      "img": "https://cdn02.billplz.com/assets/v2/bill/newFPX/ABB0233-7d377660e6e184dd0bdbdb9a796f34435192806a9376e895febc9e5a5397b682.png",
+      "active": true
+    },
+    {
+      "name": "AGRO01",
+      "label": "AGRONet",
+      "img": "https://cdn03.billplz.com/assets/v2/bill/newFPX/AGRO01-82ac6802ea5fcf225295b28b10fa84514d8a59d4e5948677375b914d02f5fd67.png",
+      "active": true
+    },
+    {
+      "name": "ABMB0212",
+      "label": "allianceonline",
+      "img": "https://cdn00.billplz.com/assets/v2/bill/newFPX/ABMB0212-1c3afca96b7106edd90bf19bc6ff07cab30bf49bd8084a68b588d0c51cb7f557.png",
+      "active": true
+    },
+    {
+      "name": "AMBB0209",
+      "label": "AmOnline",
+      "img": "https://cdn01.billplz.com/assets/v2/bill/newFPX/AMBB0209-0bd8430bc24ec96a904665a260e6741a9f84195c250e3a715469878cf797ab46.png",
+      "active": true
+    },
+    {
+      "name": "BIMB0340",
+      "label": "Bank Islam Internet Banking",
+      "img": "https://cdn01.billplz.com/assets/v2/bill/newFPX/BIMB0340-f4255063c54a94b0506ca972ccedc6e363ff1e96b301ec4a2d507b40fa90e8a0.png",
+      "active": true
+    },
+    {
+      "name": "BMMB0341",
+      "label": "i-Muamalat",
+      "img": "https://cdn03.billplz.com/assets/v2/bill/newFPX/BMMB0341-d127fb79eced5ea233f02fd109a62aa8ff40cf5dcd7b059680a143c9d0782c02.png",
+      "active": true
+    },
+    {
+      "name": "BOCM01",
+      "label": "Bank of China",
+      "img": "https://cdn01.billplz.com/assets/v2/bill/newFPX/BOCM01-c27eef3c0461ee0229fa3ebb6af6abd5950fbb2dc28e2e29fe3ddbfb0baeea5e.png",
+      "active": true
+    },
+    {
+      "name": "BKRM0602",
+      "label": "i-Rakyat",
+      "img": "https://cdn01.billplz.com/assets/v2/bill/newFPX/BKRM0602-aad2537637e983ae0c55bba558d252bc03ba6d75808851027fe187743e22fbc2.png",
+      "active": true
+    },
+    {
+      "name": "BSN0601",
+      "label": "myBSN",
+      "img": "https://cdn03.billplz.com/assets/v2/bill/newFPX/BSN0601-ef9d962ba99334ad7ef9120147ededc1c0319e8502ff5d0f17be0b963d528cca.png",
+      "active": true
+    },
+    {
+      "name": "HSBC0223",
+      "label": "HSBC Online Banking",
+      "img": "https://cdn03.billplz.com/assets/v2/bill/newFPX/HSBC0223-7a4f649185b9190e5b8d2629bc14ff1d2e429a8ecd6292744111d1a9c24a5758.png",
+      "active": true
+    },
+    {
+      "name": "KFH0346",
+      "label": "KFH Online",
+      "img": "https://cdn02.billplz.com/assets/v2/bill/newFPX/KFH0346-e5d1ea49e15aee2e29f0dd29a7adff6891b948bb208ce40a9ca2ce1d79dd2f34.png",
+      "active": true
+    },
+    {
+      "name": "OCBC0229",
+      "label": "OCBC Online Banking",
+      "img": "https://cdn03.billplz.com/assets/v2/bill/newFPX/OCBC0229-cb05da24e76c802f85aac6be6292baad274eb2cf54e3df92e488edc541ca9677.png",
+      "active": true
+    },
+    {
+      "name": "SCB0216",
+      "label": "SC Online Banking",
+      "img": "https://cdn00.billplz.com/assets/v2/bill/newFPX/SCB0216-5036959ace08e3755e1f45901250de69a2f377e7e717bb6ab00fcd8aa526f47e.png",
+      "active": true
+    },
+    {
+      "name": "UOB0226",
+      "label": "UOB Internet Banking",
+      "img": "https://cdn03.billplz.com/assets/v2/bill/newFPX/UOB0226-11d6c013dd72f19c03668d05aee63bb5e729c3fe2716d2c9111494efd667f5f9.png",
+      "active": true
+    }
+  ]
+}

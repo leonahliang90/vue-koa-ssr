@@ -1,0 +1,28 @@
+{
+  "ewallet": [
+    {
+      "name": "TNG_MY",
+      "label": "Touch N Go",
+      "img": "/ewallet/tng.png",
+      "active": true
+    },
+    {
+      "name": "BOOST_MY",
+      "label": "Boost",
+      "img": "/ewallet/boost.png",
+      "active": true
+    },
+    {
+      "name": "ALIPAY_CN",
+      "label": "ALIPAY",
+      "img": "/ewallet/alipay.png",
+      "active": true
+    },
+    {
+      "name": "GRABPAY_MY",
+      "label": "GRAB PAY",
+      "img": "/ewallet/grab.png",
+      "active": true
+    }
+  ]
+}
