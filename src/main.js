@@ -1,5 +1,7 @@
 import Vue from 'vue'
 import App from './App'
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
 import createRouter from './router'
 import createStore from './store'
 
@@ -7,6 +9,7 @@ import createStore from './store'
 export default () => {
     const router = createRouter()
     const store = createStore()
+    Vue.use(ElementUI);
     const app = new Vue({
         router,
         store,

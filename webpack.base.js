@@ -15,6 +15,10 @@ module.exports = {
     module: {
         rules: [
             {
+                test: /\.(png|jpg|gif|eot|woff|ttf|svg|webp|PNG)(\?\S*)?$/,
+                use: ["file-loader"],
+            },
+            {
                 test: /\.js$/,
                 use: {
                     loader: 'babel-loader',

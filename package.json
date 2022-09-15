@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon server.js",
     "client:dev": "webpack-dev-server --config ./webpack.client.js --mode development",
     "client:build": "webpack --config ./webpack.client.js --mode production",
     "server:build": "webpack --config ./webpack.server.js --mode production"
@@ -15,7 +16,9 @@
     "@babel/core": "^7.19.0",
     "@babel/preset-env": "^7.19.0",
     "babel-loader": "^8.2.5",
+    "file-loader": "^6.2.0",
     "html-webpack-plugin": "^3.2.0",
+    "nodemon": "^2.0.19",
     "vue-loader": "^15.10.0",
     "vue-template-compiler": "^2.7.10",
     "webpack": "^4.46.0",
@@ -27,6 +30,7 @@
     "axios": "^0.27.2",
     "css-loader": "^4.3.0",
     "element-plus": "^2.2.16",
+    "element-ui": "^2.15.9",
     "koa": "^2.13.4",
     "koa-router": "^12.0.0",
     "koa-static": "^5.0.0",

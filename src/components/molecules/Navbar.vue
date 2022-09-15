@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center nav-wrapper">
-    <!-- <img class="company-logo" src="../../assets/icons/gggpay-logo-black.png" /> -->
+    <img class="company-logo" src="../../assets/icons/gggpay-logo-black.png" />
   </div>
 </template>
 

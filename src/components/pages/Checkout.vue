@@ -1,7 +1,7 @@
 <template>
   <div class="page-wrap">
     <div class="payment-wrapper flex justify-center  align-center ">
-      <!-- <img src="../../assets/icons/gggpay-logo-black.png" height="130" /> -->
+      <img src="../../assets/icons/gggpay-logo-black.png" height="130" />
       <div class="ml-12">
         <div>MY SIDE BY SIDE SDN. BHD.</div>
         <div>202001038872</div>
@@ -51,8 +51,8 @@
 import axios from 'axios';
 import PaymentMethods from '../molecules/PaymentMethods.vue';
 
-const baseUrl = 'http://localhost:8080';
-// const baseUrl = 'https://api.gggpay.org'
+// const baseUrl = 'http://localhost:8080';
+const baseUrl = 'https://api.gggpay.org'
 
 export default {
   data() {
@@ -117,14 +117,16 @@ export default {
       }
     }, 1000);
     const { orderId } = this.$route.query;
-    const result = await axios.post(`${baseUrl}/gggpay/getOrderDetail`, {
-      routerName: "gggpay",
-      controllerName: "getOrderDetail",
-      data: {
-        order_id: orderId
-      }
-      // data: encryptedAuthString,
-    });
+    // const result = await axios.post(`${baseUrl}/gggpay/getOrderDetail`, {
+    //   routerName: "gggpay",
+    //   controllerName: "getOrderDetail",
+    //   data: {
+    //     order_id: orderId
+    //   }
+    //   // data: encryptedAuthString,
+    // });
+
+    const result = { data: { message: null, redirectUrl: null, orderDetail: {}} };
 
     if (result.data.message) {
       alert(result.data.message);
