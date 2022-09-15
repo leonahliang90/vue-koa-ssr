@@ -26,29 +26,13 @@ router.get('/', async (ctx) => {
     render.renderToString({ url: '/' }, (err, data) => {
       // console.log('data', data);
       if (err) reject(err);
-      // resolve(data.replace('MY SIDE BY SIDE SDN. BHD.', 'ABC123'));
+      resolve(data.replace('MY SIDE BY SIDE SDN. BHD.', 'ABC123'));
     });
   });
 });
 
 app.use(router.routes());
 app.use(static(path.resolve(__dirname, 'dist')));
-// app.use(async (ctx) => {
-//   try {
-//     ctx.body = await new Promise((resolve, reject) => {
-//       // 如果服务器没有此路径 会渲染当前的app.vue
-//       render.renderToString({ url: ctx.url }, (err, data) => {
-//         console.log('err', err);
-//         if (err) reject(err);
-//         resolve(data);
-//       });
-//     });
-//   } catch (e) {
-//     console.log('asdbbbb,404');
-//     // 路由没有匹配到组件 返回404
-//     ctx.body = '404';
-//   }
-// });
 app.listen(3000, () => {
   console.log('server start');
 });
